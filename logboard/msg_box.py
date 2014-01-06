@@ -5,7 +5,6 @@ import random
 import string
 import os
 LOG_MSGBOX = 'log_msg_box'
-MAX_RETRY = 20
 
 def gen_key():
 	return os.urandom(32).encode('hex')
