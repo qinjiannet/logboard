@@ -85,7 +85,7 @@ if 'SERVER_SOFTWARE' in os.environ:
 	)
 else:
 	STATICFILES_DIRS = (
-		r'K:/kumobot/1/static',
+		r'K:/logboard/1/static',
 		# Put strings here, like "/home/html/static" or "C:/www/django/static".
 		# Always use forward slashes, even on Windows.
 		# Don't forget to use absolute paths, not relative paths.
