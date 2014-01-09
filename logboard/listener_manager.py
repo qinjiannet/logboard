@@ -23,7 +23,7 @@ def create_listener():
 		if listeners and listeners.get(name):
 			continue
 		return name
-	raise Exception('Error on creating listener, Max retry exceeded!')
+	raise Exception('Error on creating listener, Max retries exceeded!')
 
 def add_listener(name,ctime = datetime.now()):
 	listeners = get_listeners()
